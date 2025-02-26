@@ -225,7 +225,7 @@ local Button = MainTab:CreateButton({
       end,
   })
 
-  local Button = Tab:CreateButton({
+  local Button = MainTab:CreateButton({
    Name = "Booty Script",
    Callback = function()
        loadstring(game:HttpGet("https://pastebin.com/raw/EEKzL8FF", true))()
@@ -233,7 +233,7 @@ local Button = MainTab:CreateButton({
 })
 
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Among Us V2",
    Callback = function()
       loadstring(game:HttpGet('https://rawscripts.net/raw/Nothing-Fe-Among-Us-V2-(R6)-3224'))()
@@ -247,14 +247,14 @@ Rayfield:Notify({
    Image = 4483362458,
 })
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "FE Chill",
    Callback = function()
       loadstring(game:HttpGet('https://rawscripts.net/raw/Just-a-baseplate.-Fe-Chill-14103'))()
    end,
 })
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Vr Animation",
    Callback = function()
       loadstring(game:HttpGet('https://rawscripts.net/raw/Just-a-baseplate.-Fe-Clovr-14102'))()
